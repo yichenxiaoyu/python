@@ -1,0 +1,19 @@
+#输出数字
+print(520)
+print(89.2)
+
+#输出字符串
+print("hello world")
+print('hwllo world')
+
+#含有运算符
+print(5+1)
+
+#输出到文件
+fp = open('文件地址','文件打开方式')
+print('hello world',file = fp)
+fp.close()
+
+#不进行换行输出
+print('hello world','python')
+
